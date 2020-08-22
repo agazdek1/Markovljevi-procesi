@@ -145,7 +145,7 @@ namespace MarkovljeviProcesi
             RichTextBox richTextBox = (RichTextBox)interpretacija.Controls.Find("rxtIntepretacija", true)[0];
             richTextBox.Clear();
             richTextBox.Text = "Intepretacija za "+cmbRazdoblje.Text+":\n\n";
-            richTextBox.Text += "Od potencijalnih "+txtBrojPotencijalnihKorisnika.Text+" korisnika, njih "+txtNekorisnici.Text+" će postati korisnici, dok će preostalih "+txtKorisnici.Text+" ostati nekorisnici  \n\n";
+            richTextBox.Text += "Od potencijalnih "+txtBrojPotencijalnihKorisnika.Text+" korisnika, njih "+txtKorisnici.Text+" će postati korisnici, dok će preostalih "+txtNekorisnici.Text+" ostati nekorisnici  \n\n";
             interpretacija.ShowDialog();
         }
 

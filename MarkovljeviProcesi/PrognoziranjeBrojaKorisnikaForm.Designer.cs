@@ -552,7 +552,7 @@
             // lblNekorisnici
             // 
             this.lblNekorisnici.AutoSize = true;
-            this.lblNekorisnici.Location = new System.Drawing.Point(17, 83);
+            this.lblNekorisnici.Location = new System.Drawing.Point(17, 124);
             this.lblNekorisnici.Name = "lblNekorisnici";
             this.lblNekorisnici.Size = new System.Drawing.Size(93, 17);
             this.lblNekorisnici.TabIndex = 31;
@@ -561,7 +561,7 @@
             // lblKorisnici
             // 
             this.lblKorisnici.AutoSize = true;
-            this.lblKorisnici.Location = new System.Drawing.Point(17, 124);
+            this.lblKorisnici.Location = new System.Drawing.Point(17, 83);
             this.lblKorisnici.Name = "lblKorisnici";
             this.lblKorisnici.Size = new System.Drawing.Size(75, 17);
             this.lblKorisnici.TabIndex = 32;
